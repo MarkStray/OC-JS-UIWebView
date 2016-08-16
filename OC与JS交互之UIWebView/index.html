@@ -1,0 +1,69 @@
+<html>
+    <!--描述网页信息-->
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>小黄</title>
+ 		<style>
+            .btn{height:40px; width:60%; padding: 0px 30px; background-color: #0071E7; border: solid 1px #0071E7; border-radius:5px; font-size: 1.2em; color: white}
+ 		</style>
+        
+        <script>
+            
+            //提供给OC调用JS的方法列表
+        	function alertMobile() {
+        		alert('我是上面的小黄 手机号是:13300001111')
+        	}
+
+        	function alertName(msg) {
+        		alert('你好 ' + msg + ', 我也很高兴见到你')
+        	}
+
+        	function alertSendMsg(num,msg) {
+        		alert('这是我的手机号:' + num + ',' + msg + '!!')
+        	}
+        
+            //JS响应方法列表
+            function btnClick1() {
+                location.href = "rrcc://showMobile"
+            }
+        
+            function btnClick2() {
+                location.href = "rrcc://showName_?xiaohuang"
+            }
+        
+            function btnClick3() {
+                location.href = "rrcc://showSendNumber_msg_?13300001111&go climbing this weekend"
+            }
+
+        </script>
+        
+        
+    </head>
+
+    <!--网页具体内容-->
+    <body>
+        <br/><br/>
+
+		<div>
+			<label>小黄：13300001111</label>
+		</div>
+		<br/><br/>
+
+
+		<div>
+			<button class="btn" type="button" onclick="btnClick1()">小红的手机号</button>
+		</div>
+		<br/>
+
+		<div>
+			<button class="btn" type="button" onclick="btnClick2()">打电话给小红</button>
+		</div>
+		<br/>
+
+		<div>
+			<button class="btn" type="button" onclick="btnClick3()">发短信给小红</button>
+		</div>
+
+
+    </body>
+</html>
