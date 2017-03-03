@@ -113,6 +113,7 @@
 				TargetAttributes = {
 					CECE0D6C1D61A262007B7FE4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6XB2PBHRRB;
 					};
 				};
 			};
@@ -267,10 +268,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XB2PBHRRB;
 				INFOPLIST_FILE = "OC与JS交互之UIWebView/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.renrencaichang.OC-JS---UIWebView";
+				PRODUCT_BUNDLE_IDENTIFIER = "--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -279,10 +281,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XB2PBHRRB;
 				INFOPLIST_FILE = "OC与JS交互之UIWebView/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.renrencaichang.OC-JS---UIWebView";
+				PRODUCT_BUNDLE_IDENTIFIER = "--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -306,6 +309,7 @@
 				CECE0D861D61A263007B7FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
